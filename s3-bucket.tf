@@ -3,7 +3,7 @@ module "s3_bucket" {
   version = "2.2.0"
 
   bucket = "mm-tfclab-my-s3-bucket"
-  bucket_prefix = "${var.prefix}-"
+  bucket_prefix = "test-"
   acl    = "private"
 
   versioning = {
